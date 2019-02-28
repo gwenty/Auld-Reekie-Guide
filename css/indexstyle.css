@@ -8,7 +8,7 @@
 }
 
 .inner-page {
-  padding: 0 0 11vh;
+  padding: 0 0 20vh;
 }
 
 body {
@@ -19,8 +19,12 @@ body {
 }
 
 h1 {
-  padding-top: 5vh;
+  margin-top: 10vh;
   margin-bottom: 5vh;
+}
+
+#welcome {
+  margin-bottom: 10vh;
 }
 
 .container {
@@ -39,5 +43,20 @@ footer {
 }
 
 .imgmenu {
-  max-width: 70%;
+  width: 100%;
+}
+
+.rectangle {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.menuitem {
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
