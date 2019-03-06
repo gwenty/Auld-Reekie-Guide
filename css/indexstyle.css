@@ -32,16 +32,6 @@ h1 {
   padding-right: 10vw;
 }
 
-
-footer {
-  position: absolute;
-  bottom:0;
-  left:0;
-  width:100%;
-  height:9vh;
-  background-color: yellow;
-}
-
 .imgmenu {
   width: 100%;
   height : 40%;
@@ -68,6 +58,22 @@ footer {
 .rectangle:hover {
     opacity: 0.6;
   }
+
+footer {
+  position: absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:9vh;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+}
+
+a {
+  color: white;
+}
+
 
 @media screen and (max-width: 800px) {
     .col-sm {
