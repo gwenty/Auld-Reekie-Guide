@@ -19,11 +19,12 @@ body {
 }
 /* funky style for the welcome message */
 h2 {
-  margin-top: 5vh;
+  margin-top: 0;
   margin-bottom: 2vh;
   font-family: Papyrus; fantasy;
 font-size: 4rem;
-color: darkgreen;
+color: white;
+background-color: black;
 
 }
 
