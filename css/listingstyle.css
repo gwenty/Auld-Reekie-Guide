@@ -34,9 +34,12 @@ a {
   position:fixed;
   width:100%;
   background-color: black;
+  border-bottom: 4px solid white;
+  /* Assures that header menu is in front of other items */
+  z-index: 1;
 }
 
-.l {
+.headerlink {
   padding: 14px 16px;
   padding: 3vh;
   display: inline-block;
@@ -44,7 +47,7 @@ a {
   transition: all 0.3s ease;
 }
 
-.l:hover {
+.headerlink:hover {
   background-color: grey;
 }
 
@@ -59,6 +62,11 @@ a {
   color: white;
   display: inline-block;
   margin-bottom: 10vh;
+  transition: all 0.5s ease;
+}
+
+.listing:hover {
+  opacity: 0.85;
 }
 
 .listing img {
