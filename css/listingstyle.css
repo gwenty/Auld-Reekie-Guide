@@ -1,6 +1,7 @@
 body{
   text-align: center;
   min-height: 100%;
+  font-family: arial;
 }
 
 * {
@@ -14,6 +15,17 @@ body{
 
 .inner-page {
   padding: 11vh 0 11vh;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.blurb {
+  margin-bottom: 70px;
+  font-size: 18px;
 }
 
 footer {
@@ -75,10 +87,13 @@ a {
   width: 30%;
   object-fit: cover;
 }
+
+/* TODO: If overflows div, cut text and put ...? */
 .description {
   float: left;
   width: 65%;
   text-align: left;
+  margin: 20px 10px;
 }
 .description h2 {
 
