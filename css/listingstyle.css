@@ -1,7 +1,7 @@
 body{
   text-align: center;
   min-height: 100%;
-  font-family: "Courier New", Courier, monospace;
+  font-family: arial;
 }
 
 * {
@@ -99,6 +99,7 @@ a:hover {
   object-fit: cover;
 }
 
+/* TODO: If overflows div, cut text and put ...? */
 .description {
   float: left;
   width: 65%;
