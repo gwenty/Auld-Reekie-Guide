@@ -13,7 +13,7 @@
 
 body {
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Courier New", Courier, monospace;
   min-height: 100%;
   min-width: 100%;
 }
@@ -22,10 +22,9 @@ h2 {
   margin-top: 0;
   margin-bottom: 2vh;
   font-family: Papyrus; fantasy;
-font-size: 4rem;
-color: white;
-background-color: black;
-
+  font-size: 4rem;
+  color: white;
+  background-color: black;
 }
 
 #welcome {
@@ -51,6 +50,7 @@ background-color: black;
 .menuitem {
   padding-bottom: 10px;
   padding-top: 10px;
+  font-size: 1.2rem;
 }
 
 .rectangle {

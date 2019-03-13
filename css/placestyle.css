@@ -1,7 +1,7 @@
 body{
   text-align: center;
   min-height: 100%;
-  font-family: arial;
+  font-family: "Courier New", Courier, monospace;
 }
 
 * {
@@ -19,7 +19,7 @@ body{
 }
 
 .inner-page {
-  padding: 11vh 0 11vh;
+  padding: 15vh 0 11vh;
 }
 
 h1 {
@@ -60,6 +60,7 @@ a:hover {
   border-bottom: 4px solid white;
   /* Assures that header menu is in front of other items */
   z-index: 1;
+  height:66px;
 }
 
 .headerlink {
@@ -68,6 +69,7 @@ a:hover {
   display: inline-block;
   /* Add transition for hover effects */
   transition: all 0.3s ease;
+  height:100%;
 }
 
 .headerlink:hover {
@@ -78,32 +80,13 @@ a:hover {
   background-color: red;
 }
 
-.listing {
-  width: 80vw;
-  height: 40vh;
+.carousel-item {
+  height: 50vh;
   background-color: black;
-  color: white;
-  display: inline-block;
-  margin-bottom: 10vh;
-  transition: all 0.5s ease;
 }
 
-.listing:hover {
-  opacity: 0.85;
-}
-
-.listing img {
-  float: left;
-  height: 100%;
-  width: 30%;
-  object-fit: cover;
-}
-
-.description {
-  float: left;
-  width: 65%;
-  text-align: left;
-  margin: 25px 15px;
-  height: 100%;
-  position:relative;
+.carousel-item img {
+  height:100%;
+  width:auto;
+  object-fit: contain;
 }
