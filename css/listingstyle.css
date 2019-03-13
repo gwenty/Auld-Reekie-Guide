@@ -1,7 +1,7 @@
 body{
   text-align: center;
   min-height: 100%;
-  font-family: arial;
+  font-family: "Courier New", Courier, monospace;
 }
 
 * {
@@ -23,14 +23,18 @@ body{
 }
 
 h1 {
-  margin-top: 50px;
-  margin-bottom: 20px;
-  font-size: 40px;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
+  font-size: 4rem;
+  font-family: Papyrus; fantasy;
+  color: black;
 }
 
 .blurb {
   margin-bottom: 70px;
   font-size: 18px;
+  margin-left: 10vw;
+  margin-right:10vw;
 }
 
 footer {
@@ -99,7 +103,6 @@ a:hover {
   object-fit: cover;
 }
 
-/* TODO: If overflows div, cut text and put ...? */
 .description {
   float: left;
   width: 65%;
@@ -107,4 +110,9 @@ a:hover {
   margin: 25px 15px;
   height: 100%;
   position:relative;
+}
+
+.description h3 {
+  margin-top: 0;
+  margin-bottom: 2%;
 }
