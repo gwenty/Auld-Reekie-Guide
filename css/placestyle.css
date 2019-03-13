@@ -20,6 +20,7 @@ body{
 
 .inner-page {
   padding: 11vh 0 11vh;
+  padding-top: 20vh;
 }
 
 h1 {
@@ -76,34 +77,4 @@ a:hover {
 
 #active {
   background-color: red;
-}
-
-.listing {
-  width: 80vw;
-  height: 40vh;
-  background-color: black;
-  color: white;
-  display: inline-block;
-  margin-bottom: 10vh;
-  transition: all 0.5s ease;
-}
-
-.listing:hover {
-  opacity: 0.85;
-}
-
-.listing img {
-  float: left;
-  height: 100%;
-  width: 30%;
-  object-fit: cover;
-}
-
-.description {
-  float: left;
-  width: 65%;
-  text-align: left;
-  margin: 25px 15px;
-  height: 100%;
-  position:relative;
 }
