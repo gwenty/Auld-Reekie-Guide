@@ -1,25 +1,47 @@
 <DOCTYPE! html>
 <html>
 
-  <head>
-    <title>About</title>
-    <link rel="stylesheet" type = "text/css" href="css/listingstyle.css">
   </head>
-
+  <link rel="stylesheet" type = "text/css" href="css/contributestyle.css">
+  </head>
+<title>About</title>
   <body>
-    <div class="page">
-      <div class="inner-page">
-        <header>
-          <p><a href = "tours.html">Tours</a>  | <a href = "nightlife.html">Nightlife</a> |
-            <a href = "food.html">Food</a>  | <a href = "music.html">Music</a><p>
-        </header>
+  <div class="page">
 
+      <div class="header">
+        <a href = "index.html"><div class="headerlink">Home</div></a>
+        <a href = "tours.html"><div class="headerlink">Tours</div></a>
+        <a href = "nightlife.html"><div class="headerlink">Nightlife</div></a>
+        <a href = "food.html"><div class="headerlink">Food</div></a>
+        <a href = "music.html"><div class="headerlink" >Music</div></a><p>
       </div>
 
+      <div class="inner-page">
+        <h1>Hello!</h1>
+
       <footer>
-        <p><a href = "about.html">About us</a>  | <a href = "contribute.html">Contribute</a><p>
+        <p><a href= "contribute.html">Contribute</a><p>
       </footer>
     </div>
-  </body>
 
-</html>
+    <h2>What is your name?</h2>
+
+  <button onclick="myFunction()">Say hi!</button>
+
+  <p id="demo"></p>
+
+  <script>
+  function myFunction() {
+    var txt;
+    var person = prompt("What is your name?");
+    if (person == null || person == "") {
+      txt = "Okay keep your secrets:)";
+    } else {
+      txt = "Hello " + person + "! Thank you for visiting our website! If you have a favourite place in Edinburgh and would like to share it with us, please fill out the form in Contribute section down below";
+    }
+    document.getElementById("demo").innerHTML = txt;
+  }
+  </script>
+
+  </body>
+  </html>
