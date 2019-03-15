@@ -16,7 +16,6 @@
         <a href = "music.html"><div class="headerlink" >Music</div></a><p>
       </div>
 
-      <div class="inner-page">
         <h1>Hello!</h1>
 
         <p class = "blurb"> We are a group of students from the Edinburgh University, learning how to code.
@@ -27,33 +26,34 @@
 
           <p class="blurb">This page was inspired by our affection to the beautiful Edinburgh.
           We enjoy studying here, and fell in love with Edinburgh's unique charm.
-        The collection on our website aims to help you exlopre the best of Edinburgh.</p>
+        The collection on our website aims to help you exlopre the best of Edinburgh.
+    </p>
+        <h2>What is your name?</h2>
 
+        <button onclick="myFunction()">Say hi!</button>
 
+        <p id="demo"></p>
 
+        <script>
+        function myFunction() {
+        var txt;
+        var person = prompt("What is your name?");
+        if (person == null || person == "") {
+          txt = "Okay keep your secrets:)";
+        } else {
+          txt = "Hello " + person + "! Thank you for visiting our website! If you have a favourite place in Edinburgh and would like to share it with us, please fill in the form in Contribute section down below";
+        }
+        document.getElementById("demo").innerHTML = txt;
+        }
+        </script>
+
+<div class="inner-page">
       <footer>
-        <p><a href= "contribute.html">Contribute</a><p>
+      <p><a href = "about.html">About us</a>  | <a href = "contribute.html">Contribute</a><p>
       </footer>
     </div>
 
-    <h2>What is your name?</h2>
 
-  <button onclick="myFunction()">Say hi!</button>
-
-  <p id="demo"></p>
-
-  <script>
-  function myFunction() {
-    var txt;
-    var person = prompt("What is your name?");
-    if (person == null || person == "") {
-      txt = "Okay keep your secrets:)";
-    } else {
-      txt = "Hello " + person + "! Thank you for visiting our website! If you have a favourite place in Edinburgh and would like to share it with us, please fill in the form in Contribute section down below";
-    }
-    document.getElementById("demo").innerHTML = txt;
-  }
-  </script>
 
   </body>
   </html>
