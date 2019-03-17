@@ -22,7 +22,7 @@ h2 {
   margin-top: 0;
   margin-bottom: 2vh;
   font-family: Papyrus; fantasy;
-  font-size: 4rem;
+  font-size: 4em;
   color: white;
   background-color: black;
 }
@@ -33,7 +33,7 @@ h2 {
   margin-right: 10vh;
   font-style:Halvatica;
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 .container {
@@ -50,7 +50,7 @@ h2 {
 .menuitem {
   padding-bottom: 10px;
   padding-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 .rectangle {
