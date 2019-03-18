@@ -18,6 +18,10 @@ body{
   position: relative;
 }
 
+ul {
+  padding-top:3%;
+}
+
 .inner-page {
   padding: 11vh 0 11vh;
 }
