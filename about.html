@@ -1,25 +1,61 @@
 <DOCTYPE! html>
 <html>
 
-  <head>
-    <title>About</title>
-    <link rel="stylesheet" type = "text/css" href="css/listingstyle.css">
   </head>
-
+  <link rel="stylesheet" type = "text/css" href="css/about.css">
+  </head>
+<title>About</title>
   <body>
-    <div class="page">
-      <div class="inner-page">
-        <header>
-          <p><a href = "tours.html">Tours</a>  | <a href = "nightlife.html">Nightlife</a> |
-            <a href = "food.html">Food</a>  | <a href = "music.html">Music</a><p>
-        </header>
+  <div class="page">
 
+      <div class="header">
+        <a href = "index.html"><div class="headerlink">Home</div></a>
+        <a href = "tours.html"><div class="headerlink">Tours</div></a>
+        <a href = "nightlife.html"><div class="headerlink">Nightlife</div></a>
+        <a href = "food.html"><div class="headerlink">Food</div></a>
+        <a href = "music.html"><div class="headerlink" >Music</div></a><p>
       </div>
 
+        <h1>Hello!</h1>
+
+        <p class = "blurb"> We are a group of University of Edinburgh students, learning how to code with CodeFirts:Girls.
+          We put this website together whilst attending a community course with
+          CodeFirst: Girls. To find out more about CodeFirst click below.</p>
+          <br></br>
+<a href="https://www.codefirstgirls.org.uk/">
+  <img src="https://www.codefirstgirls.org.uk/uploads/1/9/8/9/19897181/1404924530.png"></a>
+<br></br>
+          <p class="blurb">
+          We enjoy studying in this beautiful city, and fell in love with Edinburgh's unique charm.
+        Collections on our website aims to help you exlopre the best Edinburgh has to offer.
+    </p>
+    <br></br>
+        <h2>What is your name?</h2>
+
+        <button onclick="myFunction()">Click me!</button>
+
+        <p id="demo"></p>
+
+        <script>
+        function myFunction() {
+        var txt;
+        var person = prompt("What is your name?");
+        if (person == null || person == "") {
+          txt = "Okay keep your secrets:)";
+        } else {
+          txt = "Hello " + person + "! Thank you for visiting our website! If you would like to share with us your favourite place in Edinburgh or have a comment, please fill in the form in Contribute section down below. We would love to hear from you";
+        }
+        document.getElementById("demo").innerHTML = txt;
+        }
+        </script>
+
+<div class="inner-page">
       <footer>
-        <p><a href = "about.html">About us</a>  | <a href = "contribute.html">Contribute</a><p>
+      <p><a href = "about.html">About us</a>  | <a href = "contribute.html">Contribute</a><p>
       </footer>
     </div>
-  </body>
 
-</html>
+
+
+  </body>
+  </html>
