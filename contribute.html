@@ -2,6 +2,7 @@
 <html>
 
   <head>
+    <!--linking html to css style sheet  -->
     <title>Contribute</title>
     <link rel="stylesheet" type = "text/css" href="css/contributestyle.css">
   </head>
@@ -21,6 +22,7 @@
 
         <h1>Got Any Suggestions? Let Us Know!</h1>
 
+<!-- text boxes and titles -->
     <form>
           <p>Name:</p>
           <input type="text" name="Name" class="text"><br>
@@ -29,14 +31,18 @@
           <p>Suggestion:</p>
           <textarea name="Suggestion" class="text" cols="40" rows="5"></textarea><br>
   </form>
+  <!-- calls the JavaScript function causing the modal to pop up -->
   <button onclick="myFunction()">Submit</button>
 
+<!-- JavaScript/ makes the modal pop up -->
   <script>
   function myFunction() {
     alert("Thank you for your input. We will be in touch soon. Have a lovely day :)");
   }
   </script>
-<br></br>
+
+  <br>
+
 </div>
       <footer>
         <p><a href = "about.html">About us</a>  | <a href = "contribute.html">Contribute</a><p>
