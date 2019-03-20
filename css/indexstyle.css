@@ -65,10 +65,9 @@ h2 {
   transition: all 0.3s ease;
 }
 
-/* .rectangle:hover menuitem p{
+ .rectangle:hover{
     opacity: 0.6;
-    text-decoration: none;
-  } */
+  }
 
 footer {
   position: absolute;
@@ -99,5 +98,12 @@ a:hover {
     .container {
       padding-left: 2vw;
       padding-right: 2vw;
+    }
+  }
+
+@media screen and (min-width: 1500px) {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
