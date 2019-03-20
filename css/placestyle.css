@@ -8,11 +8,6 @@ body{
   margin: 0;
 }
 
-.contact {
-  bottom:20%;
-  position:absolute;
-}
-
 .page {
   min-height: 100%;
   position: relative;
@@ -33,6 +28,7 @@ h1 {
   font-size: 1.2em;
 }
 
+/* Menu at the bottom of the page */
 footer {
   position: absolute;
   bottom:0;
@@ -57,6 +53,7 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Fixed menu at the top of the page */
 .header {
   position:fixed;
   width:100%;
@@ -81,10 +78,12 @@ a:hover {
   background-color: grey;
 }
 
+/* The active page is displayed in red in the header menu */
 #active {
   background-color: red;
 }
 
+/* Overwriting the bootstrap sizes for the image carousel */
 .carousel-item {
   height: 50vh;
   background-color: black;
@@ -100,6 +99,7 @@ p {
   margin: 0 15vw 10vh 15vw;
 }
 
+/* Embedded google map */
 .mapouter {
   display: inline-block;
   text-align:center;

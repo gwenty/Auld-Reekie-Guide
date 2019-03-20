@@ -53,6 +53,7 @@ h2 {
   font-size: 1.2em;
 }
 
+/* The items in the image menu on the center of the page */
 .rectangle {
   width: 100%;
   display: block;
@@ -65,10 +66,11 @@ h2 {
   transition: all 0.3s ease;
 }
 
- .rectangle:hover{
-    opacity: 0.6;
-  }
+.rectangle:hover{
+  opacity: 0.6;
+}
 
+/* Footer menu at the bottom of the page */
 footer {
   position: absolute;
   bottom:0;
@@ -90,7 +92,7 @@ a:hover {
   color: white;
 }
 
-
+/* Some different styling of the main image menu for screen sizes */
 @media screen and (max-width: 800px) {
     .col-sm {
       min-width:80vw;

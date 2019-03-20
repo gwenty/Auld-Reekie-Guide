@@ -41,7 +41,7 @@ h1 {
   margin-right:10vw;
 }
 
-
+/* Menu at the bottom of the page */
 footer {
   position: absolute;
   bottom:0;
@@ -83,10 +83,12 @@ a:hover {
   background-color: grey;
 }
 
+/* The current page is displayed in red in the header menu */
 #active {
   background-color: red;
 }
 
+/* Styling the blocks that contain images and information about each place */
 .listing {
   width: 80vw;
   height: 40vh;
