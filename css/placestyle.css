@@ -64,7 +64,8 @@ a:hover {
   border-bottom: 4px solid white;
   /* Assures that header menu is in front of other items */
   z-index: 1;
-  height:66px;
+  /*The bootstrap carousel changes the size of the header so manually set it to make it look better*/
+  height:10vh;
 }
 
 .headerlink {
@@ -120,4 +121,18 @@ p {
 
 a:hover {
   color: white;
+}
+
+/*The bootstrap carousel changes the size of the header so manually set it to make it look better*/
+/*Some different screen sizes to keep good dimensions*/
+@media screen and (min-height: 800px) {
+  .header {
+    height:8vh;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  .header {
+    height:15vh;
+  }
 }
