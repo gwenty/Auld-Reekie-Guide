@@ -19,7 +19,7 @@ body{
 
 h1 {
   padding-top: 20vh;
-  font-family: Papyrus; fantasy;
+  font-family: Papyrus, "Courier New", Courier, monospace;
   font-size: 3em;
 }
 

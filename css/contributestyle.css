@@ -78,7 +78,7 @@ input {
 h1 {
   padding: 20px;
   padding-bottom: 45px;
-  font-family: Papyrus; fantasy;
+  font-family: Papyrus, "Courier New", Courier, monospace;
   font-size: 3rem;
 }
 
