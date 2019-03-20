@@ -3,7 +3,7 @@
 
   <head>
     <title>About</title>
-    <!-- Linking the style to the page -->
+    <!-- This links the document to a separate css file - handy for changing the style of the particular js elements -->
     <link rel="stylesheet" type = "text/css" href="css/about.css">
   </head>
 
@@ -25,34 +25,31 @@
         We put this website together whilst attending a community course with
         CodeFirst: Girls. To find out more about CodeFirst click below.</p>
       <br></br>
-
-
+      <!-- This creates an image link -->
       <a href="https://www.codefirstgirls.org.uk/">
       <img src="https://www.codefirstgirls.org.uk/uploads/1/9/8/9/19897181/1404924530.png"></a>
       <br></br>
-
-
       <p class="blurb">
         We enjoy studying in this beautiful city, and fell in love with Edinburgh's unique charm.
         Collections on our website aims to help you exlopre the best Edinburgh has to offer.
       </p>
       <br></br>
-
-
       <h2>What is your name?</h2>
-
+      <!-- This function is for the pop up window that lest the website and user to interact -->
       <button onclick="myFunction()">Click me!</button>
 
       <p id="demo"></p>
-
+      <!-- this is the content of the function -->
       <script>
         function myFunction() {
         var txt;
+        // This is the message in the box for the user to answer
         var person = prompt("What is your name?");
         if (person == null || person == "") {
           txt = "Okay keep your secrets:)";
         } else {
-          txt = "Hello " + person + "! Thank you for visiting our website! If you would like to share with us your favourite place in Edinburgh or have a comment, please fill in the form in Contribute section down below. We would love to hear from you";
+          // Message that displays on the page
+          txt = "Hello " + person + "! Thank you for visiting our website! If you would like to share with us your favourite place in Edinburgh or have a comment, please fill in the form in Contribute section down below. We would love to hear from you.";
         }
         document.getElementById("demo").innerHTML = txt;
         }
@@ -60,7 +57,7 @@
 
       <div class="inner-page">
 
-        <!-- A footer menu with links to administrative pages About us and Contribute -->
+      <!-- A footer menu with links to administrative pages About us and Contribute -->
       <footer>
         <p><a href = "about.html">About us</a>  | <a href = "contribute.html">Contribute</a><p>
         </footer>

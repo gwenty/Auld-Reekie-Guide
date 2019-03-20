@@ -92,7 +92,7 @@ textarea {
 p {
   font-weight: bold;
 }
-
+/* making sure the button element is the same across the pages  */
 button {
   background-color: black;
   border: 2px solid black;
