@@ -21,7 +21,7 @@ body {
 h2 {
   margin-top: 0;
   margin-bottom: 2vh;
-  font-family: Papyrus; fantasy;
+  font-family: Papyrus, "Courier New", Courier, monospace;
   font-size: 4em;
   color: white;
   background-color: black;
