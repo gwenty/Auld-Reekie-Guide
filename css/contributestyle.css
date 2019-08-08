@@ -96,6 +96,7 @@ textarea {
 
 label {
   font-weight: bold;
+  display:block;
 }
 
 /* Submit button for submitting a contribution */
