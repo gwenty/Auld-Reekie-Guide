@@ -80,7 +80,7 @@ a:hover {
 
 /* The active page is displayed in red in the header menu */
 #active {
-  background-color: red;
+  background-color: #B60003;
 }
 
 /* Overwriting the bootstrap sizes for the image carousel */

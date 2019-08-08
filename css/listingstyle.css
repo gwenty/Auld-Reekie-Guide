@@ -85,7 +85,7 @@ a:hover {
 
 /* The current page is displayed in red in the header menu */
 #active {
-  background-color: red;
+  background-color: #B60003;
 }
 
 /* Styling the blocks that contain images and information about each place */
