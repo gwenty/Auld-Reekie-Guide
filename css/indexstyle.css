@@ -18,7 +18,7 @@ body {
   min-width: 100%;
 }
 /* funky style for the banner */
-h2 {
+h1 {
   margin-top: 0;
   margin-bottom: 2vh;
   font-family: Papyrus, "Courier New", Courier, monospace;
