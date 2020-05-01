@@ -43,7 +43,7 @@ h1 {
 
 .imgmenu {
   width: 100%;
-  height : 40%;
+  height : 80%;
   object-fit: cover;
 }
 
@@ -56,6 +56,7 @@ h1 {
 /* The items in the image menu on the center of the page */
 .rectangle {
   width: 100%;
+  height:50vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
